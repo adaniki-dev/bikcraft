@@ -50,7 +50,7 @@ img {
     color: #000;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .subtitulo:after {
@@ -280,7 +280,7 @@ img {
     display: block;
     background: url("../img/linhas.svg") no-repeat center;
     position: absolute;
-    top: 189px;
+    top: 209px;
     right: 162px;
     z-index: -1;
 }
