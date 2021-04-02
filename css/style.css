@@ -113,7 +113,6 @@ img {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
 .quote-externo {
@@ -141,6 +140,54 @@ img {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
+}
+/*Introdução interna */
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao-interna h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
+}
+
+.introducao-interna p {
+    color: #fff;
+}
+
+.subtitulo-interno {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
 }
 
 /* Produtos */
@@ -240,6 +287,7 @@ img {
 
 .qualidade-lista {
     padding-top: 20px;
+    overflow: auto; /* Clear fix */
 }
 
 .qualidade-lista li {
@@ -267,3 +315,80 @@ img {
     margin: 6px auto;
 }
 
+/* quebra de linha */
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url(../img/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.quebra .quote-externo {
+    max-width: 400px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fec63e;
+    margin: 6px 0 12px 0;
+}
+
+.footer-historia {
+    padding-right: 40px;
+}
+
+.footer-contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.footer-sm ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-sm ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+
+.footer-sm ul li a:hover {
+    color: #fff;
+}
+
+.copy {
+    width: 100%;
+    background: #fec63e;
+    padding: 20px 0;
+}
+
+.copy p {
+    color: #000;
+}
